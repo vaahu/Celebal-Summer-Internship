@@ -1,0 +1,19 @@
+// arrays in java can be HETROGENOUS- can store different type of element
+//  var arr  = ["abc",10 ,true, 20 ];
+//  console.log(arr);
+ //arrays occpy continous block of memory but not case of js
+  
+//  var arr = new Array(100);// it's not allocating memory of 100 but just defifning length 
+//  console.log(arr.length);
+
+
+ var arr = [2,3,4,5];
+ //types of function in arrays 
+ arr.push(10); // can push the element at the end of the array 10 is pushed at the end
+ console.log(arr);
+ arr.pop();// element is poped from the end
+ console.log(arr);
+ arr.shift();// will shift 2 is shifted out of the array left shift will occur
+ console.log(arr);
+ arr.unshift(0);//unshift the aray and can add th element 
+ console.log(arr);
